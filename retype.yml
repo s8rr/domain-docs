@@ -1,6 +1,6 @@
 input: ./src
 output: .retype
-url: domain.sabbir.cc
+url: docs.code-space.me
 branding:
   title: Domain Docs
   logo: /media/logo-circle.png
