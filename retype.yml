@@ -25,7 +25,7 @@ links:
     icon: heart
     target: blank
 edit:
-  repo: "https://github.com/is-a-dev/docs"
+  repo: "https://github.com/s8rr/domaian-docs"
   base: "/src"
   branch: "main"
   label: "Edit this page"
@@ -58,5 +58,5 @@ templating:
 footer:
   copyright: "&copy; sabbir.cc Copyright {{ year }}. All rights reserved."
   links:
-    - text: domain.sabbir.cc/docs
+    - text: docs.code-space.me
       link: https://github.com/s8rr/domaian-docs
