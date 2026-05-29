@@ -7,7 +7,7 @@ tags: useful
 # Domain Structure
 
 To register a subdomain, submit a pull request with a new JSON file in the `domains` directory.
-For example, to register `example.is-a.dev`, create a file named `example.json` in `domains/`:
+For example, to register `example.code-space.me`, create a file named `example.json` in `domains/`:
 
 ```
 domains/example.json
@@ -17,7 +17,7 @@ domains/example.json
 
 ## 📁 Filename Guidelines
 
-To register a nested subdomain like `blog.example.is-a.dev`, use dots (`.`) in the filename:
+To register a nested subdomain like `blog.example.code-space.me`, use dots (`.`) in the filename:
 `blog.example.json`
 
 Each part of the filename (i.e., each subdomain label) must follow these rules:
@@ -26,7 +26,7 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 * Minimum of **1 character**, maximum of **244 characters** (excluding `.json`).
 * Each label (segment between dots) must be **≤ 63 characters**.
 * File must **end with `.json`**.
-* **Must not contain `is-a.dev`**.
+* **Must not contain `code-space.me`**.
 * **Must not begin with a dot**, or contain spaces or invalid characters.
 
 ### ❌ Invalid Filenames
@@ -40,7 +40,7 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 | `a .json`                     | Contains a space                    |
 | `a$.json`                     | Non-alphanumeric character          |
 | `a.json.json`                 | Multiple extensions                 |
-| `a.is-a.dev.json`             | Contains reserved string `is-a.dev` |
+| `a.code-space.me.json`             | Contains reserved string `code-space.me` |
 | `a--a.json`                   | Consecutive dashes                  |
 | `blog._a.json`                | Label starts with an underscore     |
 | `abc123.aaaaaaaa...aaaa.json` | Label exceeds 63 characters         |
@@ -70,10 +70,10 @@ Each part of the filename (i.e., each subdomain label) must follow these rules:
 {
   "owner": {
     "username": "is-a-dev",
-    "email": "admin@is-a.dev"
+    "email": "admin@code-space.me"
   },
   "records": {
-    "CNAME": "is-a-dev-docs.pages.dev"
+    "CNAME": "code-space.me.pages.dev"
   },
   "proxied": true
 }
@@ -181,7 +181,7 @@ See all supported record types in the [FAQ](./faq#which-records-are-supported).
   "NS": ["ns1.example.com", "ns2.example.com"]
   ```
 
-  > Refer to the [FAQ](https://docs.is-a.dev/faq/#who-can-use-ns-records) for guidance on valid use cases.
+  > Refer to the [FAQ](https://docs.code-space.me/faq/#who-can-use-ns-records) for guidance on valid use cases.
 
 * **SRV**
   Defines service records:

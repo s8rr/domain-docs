@@ -26,11 +26,11 @@ We support the following DNS record types:
 * `TLSA`
 * `TXT`
 * `URL`
-  * *Note: This is not a true DNS record. It is a custom made redirector specifically for is-a.dev.*
+  * *Note: This is not a true DNS record. It is a custom made redirector specifically for code-space.me.*
 
 ---
 
-## Why does my domain still redirect to the is-a.dev homepage?
+## Why does my domain still redirect to the code-space.me homepage?
 
 This usually happens due to browser caching. [Clear your browser cache](https://support.google.com/accounts/answer/32050) and try again.
 
@@ -38,19 +38,19 @@ This usually happens due to browser caching. [Clear your browser cache](https://
 
 ## Can I use a CNAME record with other record types?
 
-No, unless the domain is proxied. A `CNAME` cannot be combined with other record types (`A`, `MX`, `TXT`, etc.) in the same record set. For exceptions and setup instructions, see [Proxying Your Domain](https://docs.is-a.dev/domain-structure/#-proxied-optional).
+No, unless the domain is proxied. A `CNAME` cannot be combined with other record types (`A`, `MX`, `TXT`, etc.) in the same record set. For exceptions and setup instructions, see [Proxying Your Domain](https://docs.code-space.me/domain-structure/#-proxied-optional).
 
 ---
 
 ## How long does it take for my pull request to be merged?
 
-We're a team of volunteers, and is-a.dev is a side project for us, so review times can vary. We'll get to your PR as soon as we can. To potentially speed things up, share your PR link in [#pull-requests](https://discord.com/channels/830872854677422150/1130858271620726784) on our [Discord server](https://discord.gg/is-a-dev-830872854677422150).
+We're a team of volunteers, and code-space.me is a side project for us, so review times can vary. We'll get to your PR as soon as I can. 
 
 ---
 
 ## Which platforms or services are supported?
 
-While you can use almost any service, these are the most commonly used with is-a.dev:
+While you can use almost any service, these are the most commonly used with code-space.me:
 
 * Cloudflare Pages
 * GitHub Pages
@@ -60,9 +60,9 @@ While you can use almost any service, these are the most commonly used with is-a
 
 ---
 
-## Can I create nested subdomains (e.g., `sub.example.is-a.dev`)?
+## Can I create nested subdomains (e.g., `sub.example.code-space.me`)?
 
-Yes! You can nest subdomains as deeply as you'd like. To create one, name your file like `blog.example.json`. You **must own** `example.is-a.dev` to register `blog.example.is-a.dev`.
+Yes! You can nest subdomains as deeply as you'd like. To create one, name your file like `blog.example.json`. You **must own** `example.code-space.me` to register `blog.example.code-space.me`.
 
 ---
 
@@ -72,7 +72,7 @@ Go to your GitHub Pages settings for your repository and **enable "Enforce HTTPS
 
 ---
 
-## Can I become a maintainer or join the is-a.dev team?
+## Can I become a maintainer or join the code-space.me team?
 
 We don't accept direct applications. Team members are **handpicked**, often based on community involvement and support activity. Even then, it does **not guarantee** a position.
 
@@ -82,7 +82,7 @@ We don't accept direct applications. Team members are **handpicked**, often base
 
 * If **your PR containing sensistive information has not been merged**, contact us immediately:
 
-  * Email: [admin@is-a.dev](mailto:admin@is-a.dev)
+  * Email: [admin@code-space.me](mailto:admin@code-space.me)
   * Discord: [@williamharrison](https://discord.com/users/853158265466257448)
 
 * If your PR **has already been merged**, we cannot retroactively remove it.
@@ -94,8 +94,8 @@ We don't accept direct applications. Team members are **handpicked**, often base
 Yes, use an `A` record and an `SRV` record.
 Refer to this [Namecheap article](https://www.namecheap.com/support/knowledgebase/article.aspx/9765/2208/how-can-i-link-my-domain-name-to-a-minecraft-server) for guidance.
 
-> ⚠️ Root subdomains (e.g., `yourname.is-a.dev`) **must relate to software development** as required in our [Terms of Service](https://is-a.dev/terms).
-> Use a *nested* subdomain (e.g., `mc.yourname.is-a.dev`) for Minecraft.
+> ⚠️ Root subdomains (e.g., `yourname.code-space.me`) **must relate to software development** as required in our [Terms of Service](https://code-space.me/terms).
+> Use a *nested* subdomain (e.g., `mc.yourname.code-space.me`) for Minecraft.
 
 ---
 
@@ -116,9 +116,9 @@ We **do not allow** NS records for:
 * Non-functional or placeholder purposes
 * Self hosting websites that can be easily hosted on a free platform like GitHub Pages
 * If we have security or abuse concerns
-* New users of is-a.dev
-  * If you have not had an is-a.dev subdomain for at least 30 days, you will be denied due to security reasons.
-* Users that have abused is-a.dev subdomains in the past
+* New users of code-space.me
+  * If you have not had an code-space.me subdomain for at least 30 days, you will be denied due to security reasons.
+* Users that have abused code-space.me subdomains in the past
 
 > ⚠️ **We reserve the right to deny any NS request at our discretion for any reason.**
 
@@ -139,11 +139,11 @@ NS records give full control over DNS for a subdomain. That opens the door to mi
 
 ---
 
-## How can I update or delete my is-a.dev subdomain?
+## How can I update or delete my code-space.me subdomain?
 
 Follow these steps:
 
-1. **Review the [documentation](https://docs.is-a.dev) and [ToS](https://is-a.dev/terms)**.
+1. **Review the [documentation](https://docs.code-space.me) and [ToS](https://code-space.me/terms)**.
 2. **Open your JSON file** (in `/domains/your-subdomain.json`).
 3. **Make your changes** (or delete the file if you're removing your domain).
 4. **Commit the changes** to your fork.
