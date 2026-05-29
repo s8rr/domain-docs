@@ -3,7 +3,7 @@ output: .retype
 url: domain.sabbir.cc
 branding:
   title: Domain Docs
-  logo: /media/
+  logo: /media/logo-circle.png
   logoAlign: left
   colors:
     label:
