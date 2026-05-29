@@ -37,9 +37,8 @@ For our Quick Start guide you can click [here](quickstart) to read it. You can a
 ## Official Subdomains
 These are the official subdomains run by the domain.sabbir.cc staff team.
 
-- [`domain.sabbir.cc`](https://domain.sabbir.cc) (the root domain, used for the main page, documentation, and emails.)
-- [`data.domain.sabbir.cc`](https://data.domain.sabbir.cc) (data visualization website, run by [@wdhdev](https://github.com/wdhdev).)
-- `docs.domain.sabbir.cc` (this website.)
+- [`code-space.me`](https://code-space.me) (the root domain, used for the main page, documentation, and emails.)
+- `docs.code-space.me` (this website.)
 
 **Do *NOT* trust any websites claiming to be us that are not listed here. If you find any, please report them to [admin@domain.sabbir.cc](mailto:admin@domain.sabbir.cc).**
 
